@@ -1,0 +1,44 @@
+.products {
+  padding: 24px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Cart section styles generated with generative AI */
+.cart {
+  max-width: 640px;
+  margin: 40px auto 0;
+  padding: 20px;
+  text-align: left;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.cart h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.cart-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.cart-empty {
+  text-align: center;
+  color: #666;
+}
+
+.cart-total {
+  margin: 16px 0 0;
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
