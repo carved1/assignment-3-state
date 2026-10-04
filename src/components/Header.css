@@ -29,6 +29,12 @@
   align-items: center;
 }
 
+/* Cart link styles generated with generative AI */
+.cart-link {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Cart badge styles generated with generative AI */
 .cart-container {
   position: relative;

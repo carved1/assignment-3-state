@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Hero.css'
 
 function Hero({ title, subtitle, ctaText }) {
@@ -9,7 +10,7 @@ function Hero({ title, subtitle, ctaText }) {
       />
       <h1>{title}</h1>
       <p>{subtitle}</p>
-      <a href="#shop">{ctaText}</a>
+      <Link to="/products">{ctaText}</Link>
     </section>
   )
 }
